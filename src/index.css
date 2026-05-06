@@ -1,0 +1,29 @@
+/* Camber Trial — Regular */
+@font-face { font-family: 'Camber Trial'; src: url('/fonts/CamberTRIAL-Th.otf') format('opentype'); font-weight: 100; font-style: normal; font-display: swap; }
+@font-face { font-family: 'Camber Trial'; src: url('/fonts/CamberTRIAL-ThIt.otf') format('opentype'); font-weight: 100; font-style: italic; font-display: swap; }
+@font-face { font-family: 'Camber Trial'; src: url('/fonts/CamberTRIAL-UltLt.otf') format('opentype'); font-weight: 200; font-style: normal; font-display: swap; }
+@font-face { font-family: 'Camber Trial'; src: url('/fonts/CamberTRIAL-UltLtIt.otf') format('opentype'); font-weight: 200; font-style: italic; font-display: swap; }
+@font-face { font-family: 'Camber Trial'; src: url('/fonts/CamberTRIAL-Lt.otf') format('opentype'); font-weight: 300; font-style: normal; font-display: swap; }
+@font-face { font-family: 'Camber Trial'; src: url('/fonts/CamberTRIAL-LtIt.otf') format('opentype'); font-weight: 300; font-style: italic; font-display: swap; }
+@font-face { font-family: 'Camber Trial'; src: url('/fonts/CamberTRIAL-Rg.otf') format('opentype'); font-weight: 400; font-style: normal; font-display: swap; }
+@font-face { font-family: 'Camber Trial'; src: url('/fonts/CamberTRIAL-RgIt.otf') format('opentype'); font-weight: 400; font-style: italic; font-display: swap; }
+@font-face { font-family: 'Camber Trial'; src: url('/fonts/CamberTRIAL-Md.otf') format('opentype'); font-weight: 500; font-style: normal; font-display: swap; }
+@font-face { font-family: 'Camber Trial'; src: url('/fonts/CamberTRIAL-MdIt.otf') format('opentype'); font-weight: 500; font-style: italic; font-display: swap; }
+@font-face { font-family: 'Camber Trial'; src: url('/fonts/CamberTRIAL-SmBd.otf') format('opentype'); font-weight: 600; font-style: normal; font-display: swap; }
+@font-face { font-family: 'Camber Trial'; src: url('/fonts/CamberTRIAL-SmBdIt.otf') format('opentype'); font-weight: 600; font-style: italic; font-display: swap; }
+@font-face { font-family: 'Camber Trial'; src: url('/fonts/CamberTRIAL-Bd.otf') format('opentype'); font-weight: 700; font-style: normal; font-display: swap; }
+@font-face { font-family: 'Camber Trial'; src: url('/fonts/CamberTRIAL-BdIt.otf') format('opentype'); font-weight: 700; font-style: italic; font-display: swap; }
+
+/* Reset */
+*, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
+html, body, #root { height: 100%; width: 100%; overflow: hidden; }
+body { -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; }
+
+/* Scrollbars */
+::-webkit-scrollbar { width: 6px; height: 6px; }
+::-webkit-scrollbar-track { background: transparent; }
+::-webkit-scrollbar-thumb { background: rgba(128,128,128,0.3); border-radius: 3px; }
+::-webkit-scrollbar-thumb:hover { background: rgba(128,128,128,0.5); }
+
+/* Selection */
+::selection { background: rgba(74,100,212,0.25); }
